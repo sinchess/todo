@@ -23,9 +23,7 @@ from .serializers import (
     UserCreateSerializer,
     UserListSerializer,
     TaskCreateSerializer,
-    TaskListSerializer,
-    TaskDeleteSerializer,
-    TaskUpdateSerializer
+    TaskListSerializer
 )
 
 from .models import (

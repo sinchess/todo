@@ -37,7 +37,6 @@ class UserCreateSerializer(ModelSerializer):
         )
         user_obj.set_password(password)
         user_obj.save()
-        Token.objects.create(user=user_obj)
         return validated_data
 
 
